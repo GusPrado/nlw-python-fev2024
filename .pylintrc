@@ -1,5 +1,6 @@
 [MAIN]
 disable=
+      C0303, # Trailing whitespace - cause bad code view
       C0114, # missing-module-docstring
       C0115, # Missing-class-docstring
       C0116, # missing-function-docstring

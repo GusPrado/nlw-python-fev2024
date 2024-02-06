@@ -8,9 +8,7 @@ tags_routes_bp = Blueprint('tags_routes', __name__)
 
 def create_tags():
     tag_creator_view = TagCreatorView()
-    print(request.json)
     http_request = HttpRequest(body=request.json)
     response = tag_creator_view.validate_and_create(http_request)
 
     return jsonify(response.body), response.status_code
-
