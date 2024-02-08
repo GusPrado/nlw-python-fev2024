@@ -8,7 +8,9 @@ Using Python project professional good practices like:
 - Input validators
 - Unit tests
 
-Other Libs used on this project:
+![barcode python](Python%20Rocks!!.png)
+
+Some libraries used on this project:
 
 - Flask
 - Python-Barcode
